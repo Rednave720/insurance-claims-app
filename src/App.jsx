@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ClaimForm from './components/Claimform';
+import ClaimForm from './components/ClaimForm';
 import ClaimsList from './components/ClaimsList';
 
 function App() {
