@@ -1,12 +1,42 @@
-# React + Vite
+# Insurance Claims Submission App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app for submitting and viewing insurance claims, built with React, Firebase Realtime Database, and Bootstrap.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## Expanding the ESLint configuration
+This project allows users to:
+- Fill out a claim submission form (Name, Email, Policy Number, Description)
+- Save claims to a Firebase NoSQL database
+- View submitted claims in a clean, user-friendly dashboard
+- Demonstrates core concepts in frontend development, cloud database interaction, and user journey design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Frontend UI library
+- **Firebase Realtime Database** – NoSQL backend to store submitted claims
+- **Bootstrap** – Styling and responsive layouts
+- **React Router DOM** – (Optional) for page navigation
+
+---
+
+## 📋 Features
+
+- User-friendly form with basic validation
+- Live data storage and retrieval with Firebase
+- Clean card-style display of submitted claims
+- Responsive mobile-friendly design
+- Easy setup and configuration
+
+---
+
+## 🔧 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/insurance-claims-app.git
+cd insurance-claims-app
