@@ -5,7 +5,7 @@ import ClaimsList from './components/ClaimsList';
 function App() {
   return (
     <Router>
-      <div className="d-flex flex-column min-vh-100 bg-light">
+      <div className="d-flex flex-column min-vh-100 bg-light" style={{ width: '100%' }}>
       <header className="text-center p-4 bg-white shadow-sm mb-4 rounded">
           <h1>Insurance Claims App</h1>
           <p>Submit and view insurance claims easily.</p>
@@ -16,7 +16,7 @@ function App() {
         </header>
 
         <main className="flex-grow-1 d-flex justify-content-center align-items-start">
-  <div className="w-100 d-flex justify-content-center" style={{ maxWidth: '1200px', padding: '20px' }}>
+  <div className="w-100 d-flex justify-content-center" style={{ padding: '20px' }}>
     <Routes>
               <Route path="/" element={<ClaimForm />} />
               <Route path="/claims" element={<ClaimsList />} />

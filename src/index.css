@@ -13,6 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Ensure the background covers the entire page */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure the root element stretches to full height */
+#root {
+  min-height: 100%;
+  min-width: 100%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

@@ -20,7 +20,7 @@ const ClaimsList = () => {
   }, []);
 
   return (
-<div className="w-100" style={{ maxWidth: '800px' }}>
+<div className="w-100">
   <h2 className="text-center mb-4">Submitted Claims</h2>
   {claims.length === 0 ? (
     <p className="text-center">No claims submitted yet.</p>
