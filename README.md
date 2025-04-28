@@ -31,12 +31,4 @@ This project allows users to:
 - Responsive mobile-friendly design
 - Easy setup and configuration
 
----
 
-## 🔧 Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/yourusername/insurance-claims-app.git
-cd insurance-claims-app
